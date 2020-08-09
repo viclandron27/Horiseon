@@ -62,7 +62,7 @@ footer h2 {
 }
 
 .image-header img {
-    height: 800px;
+    height: 1000px;
     width: 100%;
     margin-bottom: 25px;
 }
@@ -77,16 +77,19 @@ footer h2 {
     margin-left: 25px;
 }
 
-/* 3 Boxes */
-.all-boxes {
-    margin-right: 20px;
-    margin-left: 20px;
+.all-boxes div {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .main-boxes {
     width: 65%;
+    margin-left: 20px;
     display: inline-block;
+    float: left;
 }
+
     /* search engine optimization */
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -158,6 +161,10 @@ footer h2 {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    color: white;
+}
+.benefits div {
+    padding-bottom: 20px;
 }
 
 .benefit-lead {
@@ -165,27 +172,7 @@ footer h2 {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -196,10 +183,30 @@ footer h2 {
     max-width: 150px;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+}
+
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-cost img {
